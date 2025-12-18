@@ -1,0 +1,164 @@
+h1{
+	color: deeppink;
+	animation-name: monanimation ;
+	animation-duration: 5s;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+}
+@keyframes monanimation{
+	0%{background-color: lightpink;}
+	50%{transform: translateX(30PX);
+	transition-delay: 1s;
+	transition-duration: 3s;
+	}
+	to{text-align: center;
+		font-size: 30px;
+		font-weight: bolder;
+		font-style: italic;
+		transform: scale(2);
+		text-shadow: 5px 3px 2px darkviolet;}
+}
+h2{
+	!color: blue;
+	text-align: center;
+	animation-name: tit ;
+	animation-duration: 5s;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;	
+}
+@keyframes tit{
+	0%{background-color: deepskyblue;
+		color: blue;}
+	to{text-align: center;
+		font-size: 30px;
+		font-weight: bolder;
+		font-style: italic;
+		transform: scale(2);
+		color: magenta;
+		text-shadow: 5px 3px 2px navy;}
+	}
+
+	
+
+p:hover{transform: translate(2px,30PX);
+	transition-delay: 1s;
+	transition-duration: 3s;
+	background-color: pink;
+	color: blue;
+	font-style: italic;
+	font-weight: bolder;
+
+}
+body{
+	background-color: paleturquoise;
+}
+a{
+	display: inline-block;
+	
+	position: relative;
+	margin-left: 150px;
+}
+a:hover{
+	font-size: 15px;
+	font-weight: bold;
+	font-style: italic;
+	transform: scale(2);
+	transition-delay: 0s;
+	transition-duration: 2s;
+}
+fieldset{
+	border-color: violet;
+}
+legend{
+	color: orchid;
+	animation-name: legend ;
+	animation-duration: 5s;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+}
+@keyframes legend{
+	0%{}
+	50%{transform: translateX(20PX);
+	transition-delay: 1s;
+	transition-duration: 3s;
+	}
+	to{text-align: center;
+		font-weight: bolder;
+		font-style: italic;
+		transform: scale(2);}}
+#sport{
+	background-image: url("sport.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-left: 300px;
+	height: 200px;
+	width: 800px;
+}
+
+#musique{
+	background-image: url("musique.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-left: 300px;
+	height: 200px;
+	width: 800px;
+}
+#cinéma{
+	background-image: url("cin.jpg");
+	background-repeat: no-repeat;
+	background-size: 800px 200px;
+	position: relative;
+	margin-left: 300px;
+	height: 200px;
+	width: 800px;
+}
+#réseaux{
+	background-image: url("réseaux.jpg");
+	background-repeat:no-repeat;
+	background-size: 800px 200px;
+	position: relative;
+	margin-left: 300px;
+	height: 200px;
+	width: 800px;
+}
+#image{
+	position: relative;
+	padding-left: 500px
+}
+#image:hover{
+	transform: translateY(10px);
+	transform: scale(2);
+	transition-delay: 0s;
+	transition-duration: 2s;
+}
+button{
+	
+	font-weight: bold;
+	font-style: italic;
+	position: relative;
+	padding:10px;
+	margin-left: 500px;
+	margin-right: 500px;
+	background-color: dodgerblue;
+}
+a{
+	text-align: center;
+	vertical-align: middle;
+}
+#taw{
+	width: 350px;
+	height: 350px;
+	margin-left: 70px;
+}
+video{
+	width: 350px;
+	height: 350px;
+	margin-left: 460px;
+}
+h4{
+	color: violet;
+}
+	
+
